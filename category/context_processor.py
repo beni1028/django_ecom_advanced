@@ -7,7 +7,7 @@ def menu_links(request):
 
 	# Get all the category objects
 	links = Category.objects.all()
-	print(links)
+	# print(links)
 	# Put the available category object into context dictionary
 	context = {
 		'links':links, # <-- 'links'  as variable
